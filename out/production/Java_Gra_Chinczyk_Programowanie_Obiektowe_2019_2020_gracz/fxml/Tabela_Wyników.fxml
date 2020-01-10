@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="700.0" style="-fx-background-color: #276ebd;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.WynikiController">
+   <children>
+      <TableView fx:id="tabela_wynikow" editable="true" fixedCellSize="0.0" layoutX="69.0" layoutY="228.0" pickOnBounds="false" prefHeight="306.0" stylesheets="@../style.css">
+         <placeholder>
+            <Label text=" " />
+         </placeholder>
+         <columns>
+          <TableColumn fx:id="nazwa_gracza" editable="false" prefWidth="138.77734375" resizable="false" sortable="false" text="Nazwa Gracza" />
+            <TableColumn fx:id="wynik" editable="false" prefWidth="164.0" resizable="false" sortable="false" text="Liczba Punktów" />
+            <TableColumn fx:id="data" editable="false" minWidth="0.0" prefWidth="124.0" resizable="false" sortable="false" text="Data Zdobycia" />
+            <TableColumn fx:id="id_wyniku" editable="false" prefWidth="130.0" resizable="false" sortable="false" text="ID Wyniku" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button id="menu-buttons" layoutX="368.0" layoutY="601.0" mnemonicParsing="false" onAction="#OpenResults" prefHeight="50.0" prefWidth="260.0" styleClass="menu-buttons" stylesheets="@../style.css" text="Wynik gracza" textOverrun="CLIP">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Button>
+      <Button id="menu-buttons" layoutX="368.0" layoutY="679.0" mnemonicParsing="false" onAction="#RemoveResult" prefHeight="50.0" prefWidth="260.0" styleClass="menu-buttons" stylesheets="@../style.css" text="Usuń wynik" textOverrun="CLIP">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Button>
+      <Button id="menu-buttons" layoutX="368.0" layoutY="759.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="50.0" prefWidth="260.0" styleClass="menu-buttons" stylesheets="@../style.css" text="Powrót do menu" textOverrun="CLIP">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="174.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Reprezentowane są dane pobierane z bazy danych">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="130.0" layoutY="889.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Projekt labolatoria java 2019/2020 - prowadzący: Dr inż. Radosław Czarnecki ">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="50.0" fitWidth="457.0" layoutX="122.0" layoutY="96.0">
+         <image>
+            <Image url="@../multimedia/title_tabela_wyników.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="223.0" fitWidth="248.0" layoutX="69.0" layoutY="599.0" onMouseClicked="#gooseHonks">
+         <image>
+            <Image url="@../multimedia/Goose2.png" />
+         </image>
+      </ImageView>
+      <TextField id="user_name_input" fx:id="player_nick" layoutX="390.0" layoutY="563.0" prefHeight="28.0" prefWidth="217.0" promptText="Wpisz nick gracza" stylesheets="@../style.css" />
+   </children>
+</Pane>

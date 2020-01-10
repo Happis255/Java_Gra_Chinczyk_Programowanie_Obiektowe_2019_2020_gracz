@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="700.0" style="-fx-background-color: #276ebd;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.UstawieniaController">
+   <children>
+      <ImageView fitHeight="42.0" fitWidth="336.0" layoutX="182.0" layoutY="70.0">
+         <image>
+            <Image url="@../multimedia/title_ustawienia.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="185.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="java_pliki.Ustawienia mają jedynie charakter podglądowy.">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="169.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Nie wpływają one na rozgrywkę czy wygląd aplikacji.">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="72.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="GRAFIKA">
+         <font>
+            <Font name="Calibri Bold" size="27.0" />
+         </font>
+      </Text>
+      <Separator layoutX="90.0" layoutY="261.0" prefHeight="1.0" prefWidth="144.0" style="-fx-background-color: white;" />
+      <Text fill="WHITE" layoutX="72.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="ROZGRYWKA">
+         <font>
+            <Font name="Calibri Bold" size="27.0" />
+         </font>
+      </Text>
+      <Separator layoutX="90.0" layoutY="409.0" prefHeight="1.0" prefWidth="144.0" style="-fx-background-color: white;" />
+      <Text fx:id="opcja1" fill="WHITE" layoutX="113.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="1. Roździelczość:">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="opcja2" fill="WHITE" layoutX="113.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="2.  Jakosc grafiki: ">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="opcja3" fill="WHITE" layoutX="113.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="3.  Tryb okna: ">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="opcja4" fill="WHITE" layoutX="115.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="4. Liczba graczy: ">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="opcja5" fill="WHITE" layoutX="115.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="5. Kolor gracza #1">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="opcja6" fill="WHITE" layoutX="115.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="6. Kolor gracza #2">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="opcja7" fill="WHITE" layoutX="115.0" layoutY="527.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="7. Kolor gracza #3">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="opcja8" fill="WHITE" layoutX="115.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="8. Kolor gracza #4">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="72.0" layoutY="605.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="MUZYKA">
+         <font>
+            <Font name="Calibri Bold" size="27.0" />
+         </font>
+      </Text>
+      <Separator layoutX="90.0" layoutY="613.0" prefHeight="1.0" prefWidth="144.0" style="-fx-background-color: white;" />
+      <Text fx:id="opcja9" fill="WHITE" layoutX="113.0" layoutY="644.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="9.  Poziom glosnosci: ">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="opcja10" fill="WHITE" layoutX="113.0" layoutY="673.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="10. Jakosc dzwieku: ">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="opcja11" fill="WHITE" layoutX="113.0" layoutY="702.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 900;" text="11. Obsluga sluchawek 3D: ">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Text>
+      <ImageView layoutX="55.0" layoutY="630.0" onMouseClicked="#muzyka_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="81.0" layoutY="630.0" onMouseClicked="#muzyka_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="55.0" layoutY="659.0" onMouseClicked="#muzyka_jakosc_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="81.0" layoutY="659.0" onMouseClicked="#muzyka_jakosc_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="55.0" layoutY="688.0" onMouseClicked="#obsluga3d_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="81.0" layoutY="688.0" onMouseClicked="#obsluga3d_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="56.0" layoutY="427.0" onMouseClicked="#liczba_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="82.0" layoutY="427.0" onMouseClicked="#liczba_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="56.0" layoutY="456.0" onMouseClicked="#gracz_1_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="82.0" layoutY="456.0" onMouseClicked="#gracz_1_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="56.0" layoutY="485.0" onMouseClicked="#gracz_2_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="82.0" layoutY="485.0" onMouseClicked="#gracz_2_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="56.0" layoutY="514.0" onMouseClicked="#gracz_3_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="82.0" layoutY="514.0" onMouseClicked="#gracz_3_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="56.0" layoutY="543.0" onMouseClicked="#gracz_4_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="82.0" layoutY="543.0" onMouseClicked="#gracz_4_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="56.0" layoutY="278.0" onMouseClicked="#grafika_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="81.0" layoutY="278.0" onMouseClicked="#grafika_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="56.0" layoutY="307.0" onMouseClicked="#jakosc_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="81.0" layoutY="307.0" onMouseClicked="#jakosc_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="56.0" layoutY="336.0" onMouseClicked="#okno_l">
+         <image>
+            <Image url="@../multimedia/guzik_back.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="81.0" layoutY="336.0" onMouseClicked="#okno_p">
+         <image>
+            <Image url="@../multimedia/guzik_next.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="131.0" layoutY="889.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Projekt labolatoria java 2019/2020 - prowadzący: Dr inż. Radosław Czarnecki ">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="124.0" fitWidth="388.0" layoutX="-2.0" layoutY="733.0">
+         <image>
+            <Image url="@../multimedia/goose_running.png" />
+         </image>
+      </ImageView>
+      <Button id="menu-buttons" layoutX="386.0" layoutY="646.0" mnemonicParsing="false" onAction="#setDef" prefHeight="50.0" prefWidth="260.0" styleClass="menu-buttons" stylesheets="@../style.css" text="Ustawienia domyślne" textOverrun="CLIP">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Button>
+      <Button id="menu-buttons" layoutX="386.0" layoutY="726.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="50.0" prefWidth="260.0" styleClass="menu-buttons" stylesheets="@../style.css" text="Powrót do menu" textOverrun="CLIP">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="200.0" fitWidth="190.0" layoutX="403.0" layoutY="336.0" onMouseClicked="#gooseHonks">
+         <image>
+            <Image url="@../multimedia/goose_4.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

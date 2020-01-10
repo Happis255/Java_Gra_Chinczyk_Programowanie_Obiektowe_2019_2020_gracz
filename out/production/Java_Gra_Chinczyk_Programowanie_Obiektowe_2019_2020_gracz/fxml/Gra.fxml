@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="700.0" style="-fx-background-color: #276ebd;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GameController">
+   <children>
+      <ImageView fitHeight="123.0" fitWidth="450.0" layoutX="124.0" layoutY="53.0">
+         <image>
+            <Image url="@../multimedia/logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="130.0" layoutY="889.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Projekt labolatoria java 2019/2020 - prowadzący: Dr inż. Radosław Czarnecki ">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="406.0" fitWidth="639.0" layoutX="31.0" layoutY="372.0">
+         <image>
+            <Image url="@../multimedia/plansza.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek2_4" fitHeight="48.0" fitWidth="43.0" layoutX="509.0" layoutY="377.0">
+         <image>
+            <Image url="@../multimedia/goose_4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek2_3" fitHeight="48.0" fitWidth="43.0" layoutX="567.0" layoutY="377.0">
+         <image>
+            <Image url="@../multimedia/goose_4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek2_2" fitHeight="48.0" fitWidth="43.0" layoutX="506.0" layoutY="417.0">
+         <image>
+            <Image url="@../multimedia/goose_4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek2_1" fitHeight="48.0" fitWidth="43.0" layoutX="564.0" layoutY="417.0">
+         <image>
+            <Image url="@../multimedia/goose_4.png" />
+         </image>
+      </ImageView>
+      <TextFlow layoutX="35.0" layoutY="268.0" prefHeight="39.0" prefWidth="627.0" style="-fx-text-alignment: center;">
+         <children>
+            <Text fx:id="Informacja_Big" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Informacja " textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <ImageView fx:id="pionek3_4" fitHeight="39.0" fitWidth="43.0" layoutX="501.0" layoutY="656.0">
+         <image>
+            <Image url="@../multimedia/Goose3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek3_2" fitHeight="39.0" fitWidth="43.0" layoutX="501.0" layoutY="695.0">
+         <image>
+            <Image url="@../multimedia/Goose3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek3_3" fitHeight="39.0" fitWidth="43.0" layoutX="560.0" layoutY="656.0">
+         <image>
+            <Image url="@../multimedia/Goose3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek3_1" fitHeight="39.0" fitWidth="43.0" layoutX="561.0" layoutY="695.0">
+         <image>
+            <Image url="@../multimedia/Goose3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek1_4" layoutX="100.0" layoutY="372.0">
+         <image>
+            <Image url="@../multimedia/pionek1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek1_3" layoutX="158.0" layoutY="373.0">
+         <image>
+            <Image url="@../multimedia/pionek1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek1_2" layoutX="100.0" layoutY="409.0">
+         <image>
+            <Image url="@../multimedia/pionek1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek1_1" layoutX="158.0" layoutY="409.0">
+         <image>
+            <Image url="@../multimedia/pionek1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek4_4" layoutX="94.0" layoutY="645.0">
+         <image>
+            <Image url="@../multimedia/pionek4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek4_3" layoutX="154.0" layoutY="645.0">
+         <image>
+            <Image url="@../multimedia/pionek4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek4_2" layoutX="94.0" layoutY="688.0">
+         <image>
+            <Image url="@../multimedia/pionek4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pionek4_1" layoutX="154.0" layoutY="688.0">
+         <image>
+            <Image url="@../multimedia/pionek4.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="info_kostka" fill="WHITE" layoutX="309.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Wyrzuciłeś: ">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="nazwa_gracza_4" fill="WHITE" layoutX="39.0" layoutY="801.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Gracz 3" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="nazwa_gracza_1" fill="WHITE" layoutX="39.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Gracz 1" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="nazwa_gracza_2" fill="WHITE" layoutX="468.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Gracz 2" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="nazwa_gracza_3" fill="WHITE" layoutX="468.0" layoutY="801.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Gracz 4" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

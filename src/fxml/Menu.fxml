@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="700.0" style="-fx-background-color: #276ebd;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MenuScreenController">
+   <children>
+      <Text fill="WHITE" layoutX="148.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Aplikacja prezentująca grę w Chińczyka.">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="124.0" fitWidth="460.0" layoutX="120.0" layoutY="59.0">
+         <image>
+            <Image url="@../multimedia/logo.png" />
+         </image>
+      </ImageView>
+      <Button id="menu-buttons" layoutX="220.0" layoutY="572.0" mnemonicParsing="false" onAction="#OpenResults" prefHeight="50.0" prefWidth="260.0" styleClass="menu-buttons" stylesheets="@../style.css" text="Tabela wyników" textOverrun="CLIP">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Button>
+      <Button id="menu-buttons" layoutX="220.0" layoutY="652.0" mnemonicParsing="false" onAction="#OpenSettings" prefHeight="50.0" prefWidth="260.0" styleClass="menu-buttons" stylesheets="@../style.css" text="Ustawienia" textOverrun="CLIP">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Button>
+      <Button id="menu-buttons" layoutX="220.0" layoutY="732.0" mnemonicParsing="false" onAction="#exit" prefHeight="50.0" prefWidth="260.0" styleClass="menu-buttons" stylesheets="@../style.css" text="Wyjście" textOverrun="CLIP">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Button>
+      <Button id="menu-buttons" layoutX="220.0" layoutY="492.0" mnemonicParsing="false" onAction="#StartGame" prefHeight="50.0" prefWidth="260.0" styleClass="menu-buttons" stylesheets="@../style.css" text="Rozpocznij grę" textOverrun="CLIP">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="134.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="W celu uruchomienia gry wymagany jest serwer oraz 4 gracze.">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="139.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="W celu skorzystania z tabeli wymagana jest baza danych SQL.">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="130.0" layoutY="889.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" text="Projekt labolatoria java 2019/2020 - prowadzący: Dr inż. Radosław Czarnecki ">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="484.0" fitWidth="260.0" layoutX="556.0" layoutY="506.0" onMouseClicked="#goose_honk">
+         <Image url="@../multimedia/goose_CharacterArt.png" />
+      </ImageView>
+      <TextField id="user_name_input" fx:id="player_nick" layoutX="240.0" layoutY="450.0" prefHeight="28.0" prefWidth="217.0" promptText="Wpisz swój nick" stylesheets="@../style.css" />
+   </children>
+</Pane>

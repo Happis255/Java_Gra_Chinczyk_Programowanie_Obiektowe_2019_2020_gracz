@@ -1,0 +1,81 @@
+#menu-buttons {
+    -fx-background-color:  white;
+    -fx-font-size:  20;
+    -fx-text-fill:  #276ebd;
+    -fx-font-family:  Calibri;
+    -fx-font-weight:  900;
+    -fx-background-radius: 20px;
+}
+
+#menu-buttons:hover {
+    -fx-background-color:  red;
+    -fx-text-fill:  white;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-background-radius: 14;
+    -fx-fill: white;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+}
+
+.table-view .column-header, .table-view .filler{
+    -fx-size: 35;
+    -fx-border-width: 0 0 10 0;
+    -fx-background-color: transparent;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #276ebd;
+    -fx-font-size: 15;
+}
+
+.table-cell{
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-font-size: 16;
+}
+
+
+.table-row-cell{
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-font-family: Calibri;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: red;
+    -fx-background-radius: 14;
+}
+
+.table-row-cell .text {
+    -fx-fill: white ;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: white ;
+}
+
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+#user_name_input {
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: white;
+    -fx-font-size:  15;
+    -fx-text-fill:  white;
+    -fx-font-family:  Calibri;
+    -fx-alignment: center;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: white;
+}
